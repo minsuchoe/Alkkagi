@@ -303,8 +303,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Ctrl.cs" />
-    <Compile Include="Assets\Move.cs" />
+    <Compile Include="Assets\Scripts\Charge.cs" />
+    <Compile Include="Assets\Scripts\Charge1.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\IgnorePlayer.cs" />
+    <Compile Include="Assets\Scripts\Throw.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Dark.uss" />
